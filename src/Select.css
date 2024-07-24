@@ -1,0 +1,25 @@
+.select-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 320px;
+}
+
+.search-input {
+  width: 95%;
+  padding: 8px;
+  margin-top: -2px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.option {
+  padding: 0px;
+  padding-top: 10px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}

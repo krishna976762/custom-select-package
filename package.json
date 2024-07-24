@@ -1,0 +1,31 @@
+{
+  "name": "virtuselect",
+  "version": "1.0.02",
+  "description": "this package contains select functionality that includes search and virtualization",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishna976762/custom-select-package.git"
+  },
+  "keywords": [
+    "react",
+    "select",
+    "dropdown"
+  ],
+  "author": "krishna bokefod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishna976762/custom-select-package/issues"
+  },
+  "homepage": "https://github.com/krishna976762/custom-select-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7"
+  }
+}
